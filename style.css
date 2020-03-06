@@ -1,0 +1,23 @@
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+#top-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+}
+
+#middle-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottom-nav {
+    background-color:yellow;
+}
