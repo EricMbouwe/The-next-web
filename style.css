@@ -11,13 +11,83 @@ nav li {
     justify-content: space-between;
     background-color: #000;
     color: #fff;
+    padding: 8px 8px 8px 12px;
+    font-size: 12px;
 }
 
 #middle-nav {
     display: flex;
     justify-content: space-between;
+    padding: 12px;
+    color: rgb(165, 165, 165);
+    font-size: 14px;
 }
 
 #bottom-nav {
     background-color:yellow;
+    padding: 8px 8px 8px 22px;
+    font-size: 14px;
 }
+
+#form-nav {
+    border-left: 1px solid gray;
+    padding-left: 10px;
+}
+
+#grid-headline {
+    display: grid;
+    grid-template-areas:
+      'box1 box1 box2'
+      'box1 box1 box3';
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-auto-rows: minmax(200px, auto);
+    gap: 5px;
+  }
+
+  #grid-box1 {
+    grid-area: box1;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/LOVE-LETTER-TO-OnePlus-Bullets-Wireless-2-796x417.png);
+    /* background-repeat: no-repeat; */
+  }
+
+  #grid-box2 {
+    grid-area: box2;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg);
+  }
+
+  #grid-box3 {
+    grid-area: box3;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg);
+  }
+
+  #main-logo {
+      background-image: transparent url(https://wpranks.com/wp-content/uploads/2016/01/tnw-website-review.jpg);
+      background-repeat: no-repeat;
+  }
+
+  #section-1-grid {
+    display: grid;
+    grid-template-areas:
+      'box1 box2 box3 box4'
+      'box5 box6 box7 box8';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-auto-rows: minmax(200px, auto);
+    padding: 80px 375px;
+    gap: 25px;
+  }
+
+  #section-1-grid1 {
+    grid-area: box1;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Ii0LwNb-540x270.jpg);
+    background-repeat: no-repeat;
+  }
+
+  #section-1-grid2 {
+    grid-area: box2;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg);
+    background-repeat: no-repeat;
+  }
+
+  
