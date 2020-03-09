@@ -61,7 +61,7 @@ nav li {
   padding: 20px;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/LOVE-LETTER-TO-OnePlus-Bullets-Wireless-2-796x417.png);
   background-repeat: no-repeat;
-  background-size: 968px 510px;
+  background-size: 968px 500px;
   background: linear-gradient( #EDB9B4, #090909);
 }
 
@@ -69,6 +69,8 @@ nav li {
   width: 450px;
   height: 128px;
   display: inline-block;
+  background-image: transparent url(https://wpranks.com/wp-content/uploads/2016/01/tnw-website-review.jpg);
+  background-repeat: no-repeat;
 }
 
 .grid-box1-date {
@@ -84,7 +86,7 @@ nav li {
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
-  margin-top: 135px;
+  margin-top: 110px;
 }
 
 .grid-box1-text {
@@ -94,6 +96,8 @@ nav li {
   line-height: 56px;
   color: #ffffff;
   cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
 
 }
 
@@ -105,19 +109,25 @@ nav li {
 
 #grid-box2 {
   grid-area: box2;
+  padding: 20px;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg);
+}
+
+#grid-box2 p, #grid-box3 p {
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 31px;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 #grid-box3 {
   grid-area: box3;
+  padding: 20px;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg);
 }
 
-#main-logo {
-  background-image: transparent
-    url(https://wpranks.com/wp-content/uploads/2016/01/tnw-website-review.jpg);
-  background-repeat: no-repeat;
-}
 
 #section-1-grid {
   display: grid;
