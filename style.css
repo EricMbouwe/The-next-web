@@ -153,10 +153,6 @@ nav li {
   color: #ec521e;
 }
 
-.section-grid-a:hover {
-  color: #f42;
-}
-
 .section-grid-a {
   padding: 10px 0;
   text-decoration: none;
@@ -164,6 +160,10 @@ nav li {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
+}
+
+.section-grid-a:hover {
+  color: #f42;
 }
 
 #section-2-grid {
@@ -262,13 +262,13 @@ nav li {
   border: 0.5px solid #eee;
 }
 
-#section-3-grid a:hover {
-  color: #000;
-}
-
 #section-3-grid a {
   text-decoration: none;
   color: #979797;
+}
+
+#section-3-grid a:hover {
+  color: #000;
 }
 
 #section-4-grid {
@@ -330,4 +330,47 @@ nav li {
 h2,
 img {
   padding: 10px 0;
+}
+
+#footer-1 {
+  background-color: rgb(20, 20, 20);
+  height: 150px;
+}
+
+#footer-1 img {
+  padding: 30px 0 0 35%;
+}
+
+#footer-1 ul {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+#footer-1 li {
+  font-size: 12px;
+}
+
+#footer-1 a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+#footer-2 {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+#footer-2 img {
+  width: 40px;
+  height: 40px;
+  fill: white;
+}
+
+#footer-2 p {
+  color: white;
 }
