@@ -69,7 +69,8 @@ nav li {
 }
 
 #main-logo {
-  background-image: transparent
+  background-image:
+    transparent
     url(https://wpranks.com/wp-content/uploads/2016/01/tnw-website-review.jpg);
   background-repeat: no-repeat;
 }
@@ -92,7 +93,7 @@ nav li {
   font-size: 30px;
   align-self: flex-end;
   font-weight: 800;
-  color: #EC521E;
+  color: #ec521e;
 }
 
 .section-1-grid-author {
@@ -149,11 +150,11 @@ nav li {
   grid-area: section-grid-title;
   font-size: 35px;
   font-weight: 600;
-  color: #EC521E;
+  color: #ec521e;
 }
 
 .section-grid-a:hover {
-  color: #ff4422;
+  color: #f42;
 }
 
 .section-grid-a {
@@ -172,9 +173,9 @@ nav li {
   padding: 0 100px 80px 100px;
   justify-content: center;
   column-gap: 25px;
-  grid-template-areas: 
-  "section-2-grid-title section-2-grid-title section-2-grid-title section-2-grid-title"
-  "section-2-grid1 section-2-grid2 section-2-grid3 section-2-grid4";
+  grid-template-areas:
+    "section-2-grid-title section-2-grid-title section-2-grid-title section-2-grid-title"
+    "section-2-grid1 section-2-grid2 section-2-grid3 section-2-grid4";
 }
 
 .section-2-grid-title {
@@ -183,7 +184,7 @@ nav li {
   align-self: flex-end;
   padding-bottom: 25px;
   font-weight: 800;
-  color: #EC521E;
+  color: #ec521e;
   letter-spacing: -0.1rem;
 }
 
@@ -258,7 +259,7 @@ nav li {
 }
 
 #section-3-grid hr {
-  border: 0.5px solid #EEEEEE;
+  border: 0.5px solid #eee;
 }
 
 #section-3-grid a:hover {
@@ -268,4 +269,65 @@ nav li {
 #section-3-grid a {
   text-decoration: none;
   color: #979797;
+}
+
+#section-4-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  padding: 0 100px 80px 100px;
+  justify-content: center;
+  column-gap: 25px;
+  grid-template-areas:
+    "section-4-grid-title section-4-grid-title section-4-grid-title section-4-grid-title"
+    "section-4-grid1 section-4-grid2 section-4-grid3 section-4-grid4"
+    "section-4-grid5 section-4-grid6 section-4-grid7 section-4-grid8";
+}
+
+.section-4-grid-title {
+  grid-area: section-4-grid-title;
+  font-size: 30px;
+  align-self: flex-end;
+  padding-bottom: 25px;
+  font-weight: 800;
+  color: #ec521e;
+  letter-spacing: -0.1rem;
+}
+
+.section-4-grid1 {
+  grid-area: section-4-grid1;
+}
+
+.section-4-grid2 {
+  grid-area: section-4-grid2;
+}
+
+.section-4-grid3 {
+  grid-area: section-4-grid3;
+}
+
+.section-4-grid4 {
+  grid-area: section-4-grid4;
+}
+
+.section-4-grid5 {
+  grid-area: section-4-grid5;
+}
+
+.section-4-grid6 {
+  grid-area: section-4-grid6;
+}
+
+.section-4-grid7 {
+  grid-area: section-4-grid7;
+}
+
+.section-4-grid8 {
+  grid-area: section-4-grid8;
+}
+
+#section-4-grid h1,
+h2,
+img {
+  padding: 10px 0;
 }
