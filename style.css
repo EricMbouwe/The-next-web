@@ -123,8 +123,10 @@ nav li {
      align-self: flex-end;
    }
 
-   .section-grid-paragraph {
+   .section-grid-a {
      padding: 10px 0;
+     text-decoration: none;
+     color: black;
    }
 
    #section-2-grid {
@@ -141,22 +143,18 @@ nav li {
 
    .section-2-grid1 {
      grid-area: section-2-grid1;
-     background-color: blue;
    }
 
    .section-2-grid2 {
     grid-area: section-2-grid2;
-    background-color: blue;
   }
 
   .section-2-grid3 {
     grid-area: section-2-grid3;
-    background-color: blue;
   }
 
   .section-2-grid4 {
     grid-area: section-2-grid4;
-    background-color: blue;
   }
 
   #section-3-grid {
