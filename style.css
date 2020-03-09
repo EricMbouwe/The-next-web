@@ -58,7 +58,49 @@ nav li {
 
 #grid-box1 {
   grid-area: box1;
+  padding: 20px;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/LOVE-LETTER-TO-OnePlus-Bullets-Wireless-2-796x417.png);
+  background-repeat: no-repeat;
+  background-size: 968px 510px;
+  background: linear-gradient( #EDB9B4, #090909);
+}
+
+#main-logo {
+  width: 450px;
+  height: 128px;
+  display: inline-block;
+}
+
+.grid-box1-date {
+  font-size: 13px;
+  text-align: right;
+  float: right;
+}
+
+.grid-box1-location {
+  font-family: Avalon, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 135px;
+}
+
+.grid-box1-text {
+  font-family: Avalon, sans-serif;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 56px;
+  color: #ffffff;
+  cursor: pointer;
+
+}
+
+#grid-box1 span {
+  font-size: 13px;
+  margin-right: 5px;
+  color: #eeeeee;
 }
 
 #grid-box2 {
