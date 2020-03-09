@@ -8,6 +8,7 @@ body {
 
 nav ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 nav li {
@@ -21,6 +22,7 @@ nav li {
   color: #fff;
   padding: 8px 8px 8px 12px;
   font-size: 12px;
+  flex-wrap: wrap;
 }
 
 #middle-nav {
@@ -29,6 +31,7 @@ nav li {
   padding: 12px;
   color: rgb(165, 165, 165);
   font-size: 14px;
+  flex-wrap: wrap;
 }
 
 #bottom-nav {
@@ -69,8 +72,7 @@ nav li {
 }
 
 #main-logo {
-  background-image:
-    transparent
+  background-image: transparent
     url(https://wpranks.com/wp-content/uploads/2016/01/tnw-website-review.jpg);
   background-repeat: no-repeat;
 }
@@ -100,7 +102,8 @@ nav li {
   font-size: 13px;
   font-weight: 300;
   color: #979797d8;
-  margin: 5px;
+  margin: 5px 0;
+  cursor: pointer;
 }
 
 .section-1-grid-author:hover {
@@ -153,6 +156,10 @@ nav li {
   color: #ec521e;
 }
 
+.section-grid-title:hover {
+  color: #000;
+}
+
 .section-grid-a {
   padding: 10px 0;
   text-decoration: none;
@@ -174,7 +181,7 @@ nav li {
   justify-content: center;
   column-gap: 25px;
   grid-template-areas:
-    "section-2-grid-title section-2-grid-title section-2-grid-title section-2-grid-title"
+    "section-2-grid-title section-2-grid-title section-2-grid-menu  section-2-grid-menu"
     "section-2-grid1 section-2-grid2 section-2-grid3 section-2-grid4";
 }
 
@@ -186,6 +193,36 @@ nav li {
   font-weight: 800;
   color: #ec521e;
   letter-spacing: -0.1rem;
+}
+
+.section-2-grid-title:hover {
+  color: #000;
+}
+
+.section-2-grid-menu {
+  grid-area: section-2-grid-menu;
+  display: flex;
+  align-self: flex-end;
+  padding-bottom: 25px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  justify-self: self-end;
+  color:#ec521e;
+  flex-wrap: wrap;
+}
+
+.section-2-grid-menu a {
+  text-decoration: none;
+  color:#ec521e;
+}
+
+.section-2-grid-menu a:hover{
+  color: #464545;
+}
+
+.section-2-grid-menu span {
+  margin: 0 10px;
 }
 
 .section-2-grid1 {
@@ -279,7 +316,7 @@ nav li {
   justify-content: center;
   column-gap: 25px;
   grid-template-areas:
-    "section-4-grid-title section-4-grid-title section-4-grid-title section-4-grid-title"
+    "section-4-grid-title section-4-grid-title section-4-grid-deals-link section-4-grid-deals-link"
     "section-4-grid1 section-4-grid2 section-4-grid3 section-4-grid4"
     "section-4-grid5 section-4-grid6 section-4-grid7 section-4-grid8";
 }
@@ -292,6 +329,30 @@ nav li {
   font-weight: 800;
   color: #ec521e;
   letter-spacing: -0.1rem;
+}
+
+.section-4-grid-deals-link {
+  grid-area: section-4-grid-deals-link;
+  align-self: flex-end;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  justify-self: self-end;
+}
+
+.section-4-grid-deals-link a {
+  text-decoration: none;
+  color:#ec521e;
+}
+
+.section-4-grid-deals-link a:hover{
+  color: #464545;
+  cursor: pointer;
+}
+
+.section-4-grid-title:hover {
+  color: #000;
 }
 
 .section-4-grid1 {
@@ -332,45 +393,95 @@ img {
   padding: 10px 0;
 }
 
-#footer-1 {
-  background-color: rgb(20, 20, 20);
-  height: 150px;
+/*FOOTER*/
+
+#footer-links {
+  background-color: #131313;
+  padding: 42px 0 28px 0;
 }
 
-#footer-1 img {
-  padding: 30px 0 0 35%;
-}
-
-#footer-1 ul {
-  display: flex;
-  justify-content: center;
-  padding: 30px 0;
-}
-
-#footer-1 li {
-  font-size: 12px;
-}
-
-#footer-1 a {
-  color: rgb(190, 190, 190);
-  text-decoration: none;
+.footer-links-wrapper {
   padding: 0 20px;
 }
 
-#footer-2 {
-  background-color: black;
-  height: 100px;
+.footer-links-social-icons {
   display: flex;
   justify-content: center;
-  padding: 30px 0;
+  margin-bottom: 20px;
 }
 
-#footer-2 img {
-  width: 40px;
+.footer-links-social-icons li {
+  margin: 0 10px;
+}
+
+.footer-links-social-icons a {
+  background: #333;
+  border-radius: 50%;
+  display: block;
   height: 40px;
-  fill: white;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
 }
 
-#footer-2 p {
-  color: white;
+.footer-links-social-icons a:hover {
+  color: #131313;
+}
+
+.icon {
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783)
+    no-repeat;
+  /*background-size: 1296px 1296px;*/
+  display: block;
+  height: 16px;
+  width: 16px;
+}
+
+.footer-links-menu {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links-menu a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.footer-links-menu li {
+  margin: 0 5px;
+  font-family: Shentox, sans-serif;
+}
+
+#footer-legal {
+  background-color: #000000;
+  padding: 35px 0 30px 0;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.footer-legal-wrapper {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.footer-legal-logo-TNW {
+  width: 45px;
+  height: 15px;
+  margin: 0 1px -1px 1px;
+  border: 1x solid green;
+}
+
+.footer-legal-logo-Stakpath {
+  width: 70px;
+  height: 15px;
+  margin: 0 1px -3px 1px;
+  border: 1x solid green;
 }
