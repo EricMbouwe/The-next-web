@@ -1,5 +1,5 @@
 # The-next-web
-A Grayscale heat map of smashingmagazine.com
+A clone of thenextweb.com
 
 # What it does
 It is an HTML page created using pure HTML and CSS.
@@ -10,7 +10,7 @@ It is an HTML page created using pure HTML and CSS.
 
 ## Live Demo
 
-[Live Demo](https://raw.githack.com/DennisOsido/Design-Teardown/Feature/index.html)
+[Live Demo](https://raw.githack.com/EricMbouwe/The-next-web/Feature/index.html)
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ Contributions, issues and feature requests are welcome! Start by:
 
 ##### Please feel free to contribute to any of these!
 
-Feel free to check the [issues page](https://github.com/DennisOsido/Design-Teardown/issues).
+Feel free to check the [issues page](https://github.com/EricMbouwe/The-next-web/issues).
 
 ## Attributions and Credit
 The readme format was taken from Mr. Tolulope Olusakinin which is one of our TSE's in Microverse.
