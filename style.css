@@ -59,9 +59,10 @@ nav li {
 #grid-box1 {
   grid-area: box1;
   padding: 20px;
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/LOVE-LETTER-TO-OnePlus-Bullets-Wireless-2-796x417.png);
+  /*background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/LOVE-LETTER-TO-OnePlus-Bullets-Wireless-2-796x417.png);*/
   background-repeat: no-repeat;
-  background-size: 968px 500px;
+  background-size: 968px 700px;
+  background: linear-gradient(#170045, #910CB0);
 }
 
 #main-logo {
@@ -114,7 +115,8 @@ nav li {
 #grid-box2 {
   grid-area: box2;
   padding: 20px;
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg);
+  /*background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg);*/
+  background: linear-gradient(#180067,#010113);
 }
 
 #grid-box2 p,
@@ -130,7 +132,8 @@ nav li {
 #grid-box3 {
   grid-area: box3;
   padding: 20px;
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg);
+  /*background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg);*/
+  background: linear-gradient(#1E3230,#0AB4A9);
 }
 
 #section-1-grid {
@@ -524,18 +527,13 @@ img {
   text-align: center;
 }
 
-.footer-legal-logo-TNW {
-  width: 45px;
-  height: 15px;
-  margin: 0 1px -1px 1px;
-  border: 1px solid green;
+.footer-legal-wrapper a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.footer-legal-logo-Stakpath {
-  width: 70px;
-  height: 15px;
-  margin: 0 1px -3px 1px;
-}
+
 
 /* TABLET LAYOUT */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -634,6 +632,25 @@ img {
 
 /* MOBILE LAYOUT */
 @media screen and (max-width: 767px) {
+  header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  #form-nav,
+  .top-nav-hidden-mobile,
+  .middle-nav-hidden-mobile {
+    display: none;
+  }
+
+  #bottom-nav {
+    padding: 22px;
+  }
+
+
   #grid-headline {
     display: grid;
     grid-template-areas:
@@ -644,6 +661,7 @@ img {
     justify-content: center;
     grid-auto-rows: minmax(250px, 250px);
     gap: 5px;
+    margin-top: 124px;
   }
 
   #section-1-grid {
@@ -661,7 +679,7 @@ img {
     grid-template-columns: 1fr;
     justify-content: center;
     grid-auto-rows: minmax(150px, auto);
-    padding: 0 100px 80px 100px;
+    padding: 0 50px 80px 50px;
     gap: 25px;
   }
 
@@ -706,7 +724,7 @@ img {
   }
 
   .section-1-grid-img {
-    width: 100px;
+    width: 150px;
     height: 100px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -784,7 +802,7 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(50px, auto);
-    padding: 0 100px 80px 100px;
+    padding: 0 50px 80px 50px;
     justify-content: center;
     column-gap: 10px;
     grid-template-areas:
@@ -801,7 +819,7 @@ img {
   }
 
   #section-4-grid img {
-    width: 100px;
+    width: 150px;
     padding-right: 10px;
   }
 
@@ -843,5 +861,21 @@ img {
   .section-4-grid8 {
     grid-area: section-4-grid8;
     display: flex;
+  }
+
+  .section-4-grid-title {
+    grid-area: section-4-grid-title;
+    font-size: 30px;
+    font-weight: 800;
+    color: #ec521e;
+    letter-spacing: -0.1rem;
+  }
+  
+  .section-4-grid-deals-link {
+    grid-area: section-4-grid-deals-link;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    justify-self: start;
   }
 }
