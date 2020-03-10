@@ -59,10 +59,9 @@ nav li {
 #grid-box1 {
   grid-area: box1;
   padding: 20px;
-  /*background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/LOVE-LETTER-TO-OnePlus-Bullets-Wireless-2-796x417.png);*/
+  background: linear-gradient(#170045, #910cb0);
   background-repeat: no-repeat;
   background-size: 968px 700px;
-  background: linear-gradient(#170045, #910CB0);
 }
 
 #main-logo {
@@ -115,8 +114,9 @@ nav li {
 #grid-box2 {
   grid-area: box2;
   padding: 20px;
-  /*background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg);*/
-  background: linear-gradient(#180067,#010113);
+
+  /* background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg); */
+  background: linear-gradient(#180067, #010113);
 }
 
 #grid-box2 p,
@@ -132,8 +132,9 @@ nav li {
 #grid-box3 {
   grid-area: box3;
   padding: 20px;
-  /*background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg);*/
-  background: linear-gradient(#1E3230,#0AB4A9);
+
+  /* background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg); */
+  background: linear-gradient(#1e3230, #0ab4a9);
 }
 
 #section-1-grid {
@@ -294,6 +295,12 @@ nav li {
 .footer-links-menu a {
   color: #aaa;
   text-decoration: none;
+}
+
+.footer-legal-wrapper a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .section-2-grid-menu a:hover {
@@ -527,14 +534,6 @@ img {
   text-align: center;
 }
 
-.footer-legal-wrapper a {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-
-
 /* TABLET LAYOUT */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   #section-1-grid {
@@ -649,7 +648,6 @@ img {
   #bottom-nav {
     padding: 22px;
   }
-
 
   #grid-headline {
     display: grid;
@@ -870,7 +868,7 @@ img {
     color: #ec521e;
     letter-spacing: -0.1rem;
   }
-  
+
   .section-4-grid-deals-link {
     grid-area: section-4-grid-deals-link;
     font-size: 16px;
