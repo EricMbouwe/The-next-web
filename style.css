@@ -553,6 +553,11 @@ img {
     gap: 25px;
   }
 
+  #grid-box1 {
+    grid-area: box1;
+    background-size: 968px 700px;
+  }
+
   #section-2-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -635,21 +640,10 @@ img {
       "box1"
       "box2"
       "box3";
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
-    grid-auto-rows: minmax(250px, auto);
+    grid-auto-rows: minmax(250px, 250px);
     gap: 5px;
-  }
-
-  #main-logo {
-    width: 750px;
-    height: 128px;
-
-    /* display: inline-block; */
-    background-image:
-      transparent
-      url(https://wpranks.com/wp-content/uploads/2016/01/tnw-website-review.jpg);
-    background-repeat: no-repeat;
   }
 
   #section-1-grid {
@@ -808,5 +802,46 @@ img {
 
   #section-4-grid img {
     width: 100px;
+    padding-right: 10px;
+  }
+
+  .section-4-grid1 {
+    grid-area: section-4-grid1;
+    display: flex;
+  }
+
+  .section-4-grid2 {
+    grid-area: section-4-grid2;
+    display: flex;
+  }
+
+  .section-4-grid3 {
+    grid-area: section-4-grid3;
+    display: flex;
+  }
+
+  .section-4-grid4 {
+    grid-area: section-4-grid4;
+    display: flex;
+  }
+
+  .section-4-grid5 {
+    grid-area: section-4-grid5;
+    display: flex;
+  }
+
+  .section-4-grid6 {
+    grid-area: section-4-grid6;
+    display: flex;
+  }
+
+  .section-4-grid7 {
+    grid-area: section-4-grid7;
+    display: flex;
+  }
+
+  .section-4-grid8 {
+    grid-area: section-4-grid8;
+    display: flex;
   }
 }
