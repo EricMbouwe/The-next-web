@@ -62,7 +62,6 @@ nav li {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/LOVE-LETTER-TO-OnePlus-Bullets-Wireless-2-796x417.png);
   background-repeat: no-repeat;
   background-size: 968px 500px;
-  background: linear-gradient(#edb9b4, #090909);
 }
 
 #main-logo {
@@ -100,6 +99,10 @@ nav li {
   cursor: pointer;
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+.section-2-grid-menu span {
+  margin: 0 10px;
 }
 
 #grid-box1 span {
@@ -270,12 +273,28 @@ nav li {
   color: #ec521e;
 }
 
-.section-2-grid-menu a:hover {
-  color: #464545;
+.section-4-grid-deals-link a {
+  text-decoration: none;
+  color: #ec521e;
 }
 
-.section-2-grid-menu span {
-  margin: 0 10px;
+.footer-links-social-icons a {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+}
+
+.footer-links-menu a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.section-2-grid-menu a:hover {
+  color: #464545;
 }
 
 .section-2-grid1 {
@@ -339,6 +358,12 @@ nav li {
   grid-area: section-3-grid8;
 }
 
+#section-4-grid h1,
+h2,
+img {
+  padding: 10px 0;
+}
+
 #section-3-grid img {
   margin-bottom: 10px;
 }
@@ -350,6 +375,15 @@ nav li {
 
 #section-3-grid hr {
   border: 0.5px solid #eee;
+}
+
+.section-4-grid-deals-link a:hover {
+  color: #464545;
+  cursor: pointer;
+}
+
+.footer-links-social-icons a:hover {
+  color: #131313;
 }
 
 #section-3-grid a {
@@ -394,16 +428,6 @@ nav li {
   justify-self: self-end;
 }
 
-.section-4-grid-deals-link a {
-  text-decoration: none;
-  color: #ec521e;
-}
-
-.section-4-grid-deals-link a:hover {
-  color: #464545;
-  cursor: pointer;
-}
-
 .section-4-grid-title:hover {
   color: #000;
 }
@@ -440,12 +464,6 @@ nav li {
   grid-area: section-4-grid8;
 }
 
-#section-4-grid h1,
-h2,
-img {
-  padding: 10px 0;
-}
-
 /* FOOTER */
 
 #footer-links {
@@ -467,20 +485,6 @@ img {
   margin: 0 10px;
 }
 
-.footer-links-social-icons a {
-  background: #333;
-  border-radius: 50%;
-  display: block;
-  height: 40px;
-  padding: 12px;
-  text-align: center;
-  width: 40px;
-}
-
-.footer-links-social-icons a:hover {
-  color: #131313;
-}
-
 .icon {
   background:
     url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783)
@@ -498,11 +502,6 @@ img {
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-}
-
-.footer-links-menu a {
-  color: #aaa;
-  text-decoration: none;
 }
 
 .footer-links-menu li {
