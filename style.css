@@ -485,8 +485,6 @@ img {
   background:
     url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783)
     no-repeat;
-
-  /* background-size: 1296px 1296px; */
   display: block;
   height: 16px;
   width: 16px;
@@ -644,6 +642,17 @@ img {
     gap: 5px;
   }
 
+  #main-logo {
+    width: 750px;
+    height: 128px;
+
+    /* display: inline-block; */
+    background-image:
+      transparent
+      url(https://wpranks.com/wp-content/uploads/2016/01/tnw-website-review.jpg);
+    background-repeat: no-repeat;
+  }
+
   #section-1-grid {
     display: grid;
     grid-template-areas:
@@ -661,6 +670,54 @@ img {
     grid-auto-rows: minmax(150px, auto);
     padding: 0 100px 80px 100px;
     gap: 25px;
+  }
+
+  #section-1-grid1 {
+    grid-area: box1;
+    display: flex;
+  }
+
+  #section-1-grid2 {
+    grid-area: box2;
+    display: flex;
+  }
+
+  #section-1-grid3 {
+    grid-area: box3;
+    display: flex;
+  }
+
+  #section-1-grid4 {
+    grid-area: box4;
+    display: flex;
+  }
+
+  #section-1-grid5 {
+    grid-area: box5;
+    display: flex;
+  }
+
+  #section-1-grid6 {
+    grid-area: box6;
+    display: flex;
+  }
+
+  #section-1-grid7 {
+    grid-area: box7;
+    display: flex;
+  }
+
+  #section-1-grid8 {
+    grid-area: box8;
+    display: flex;
+  }
+
+  .section-1-grid-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 0;
   }
 
   #section-2-grid {
