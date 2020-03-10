@@ -62,14 +62,16 @@ nav li {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/LOVE-LETTER-TO-OnePlus-Bullets-Wireless-2-796x417.png);
   background-repeat: no-repeat;
   background-size: 968px 500px;
-  background: linear-gradient( #EDB9B4, #090909);
+  background: linear-gradient(#edb9b4, #090909);
 }
 
 #main-logo {
   width: 450px;
   height: 128px;
   display: inline-block;
-  background-image: transparent url(https://wpranks.com/wp-content/uploads/2016/01/tnw-website-review.jpg);
+  background-image:
+    transparent
+    url(https://wpranks.com/wp-content/uploads/2016/01/tnw-website-review.jpg);
   background-repeat: no-repeat;
 }
 
@@ -94,17 +96,16 @@ nav li {
   font-size: 56px;
   font-weight: 800;
   line-height: 56px;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
   margin-bottom: 10px;
   margin-top: 10px;
-
 }
 
 #grid-box1 span {
   font-size: 13px;
   margin-right: 5px;
-  color: #eeeeee;
+  color: #eee;
 }
 
 #grid-box2 {
@@ -113,12 +114,13 @@ nav li {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg);
 }
 
-#grid-box2 p, #grid-box3 p {
+#grid-box2 p,
+#grid-box3 p {
   font-family: Avalon, sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 31px;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -127,7 +129,6 @@ nav li {
   padding: 20px;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg);
 }
-
 
 #section-1-grid {
   display: grid;
@@ -260,16 +261,16 @@ nav li {
   line-height: 18px;
   font-weight: 400;
   justify-self: self-end;
-  color:#ec521e;
+  color: #ec521e;
   flex-wrap: wrap;
 }
 
 .section-2-grid-menu a {
   text-decoration: none;
-  color:#ec521e;
+  color: #ec521e;
 }
 
-.section-2-grid-menu a:hover{
+.section-2-grid-menu a:hover {
   color: #464545;
 }
 
@@ -395,10 +396,10 @@ nav li {
 
 .section-4-grid-deals-link a {
   text-decoration: none;
-  color:#ec521e;
+  color: #ec521e;
 }
 
-.section-4-grid-deals-link a:hover{
+.section-4-grid-deals-link a:hover {
   color: #464545;
   cursor: pointer;
 }
@@ -445,7 +446,7 @@ img {
   padding: 10px 0;
 }
 
-/*FOOTER*/
+/* FOOTER */
 
 #footer-links {
   background-color: #131313;
@@ -481,9 +482,11 @@ img {
 }
 
 .icon {
-  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783)
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783)
     no-repeat;
-  /*background-size: 1296px 1296px;*/
+
+  /* background-size: 1296px 1296px; */
   display: block;
   height: 16px;
   width: 16px;
@@ -493,14 +496,14 @@ img {
   font-size: 13px;
   font-weight: 500;
   line-height: 24px;
-  color: #aaaaaa;
+  color: #aaa;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
 }
 
 .footer-links-menu a {
-  color: #aaaaaa;
+  color: #aaa;
   text-decoration: none;
 }
 
@@ -510,13 +513,13 @@ img {
 }
 
 #footer-legal {
-  background-color: #000000;
+  background-color: #000;
   padding: 35px 0 30px 0;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 .footer-legal-wrapper {
@@ -528,7 +531,7 @@ img {
   width: 45px;
   height: 15px;
   margin: 0 1px -1px 1px;
-  border: 1x solid green;
+  border: 1px solid green;
 }
 
 .footer-legal-logo-Stakpath {
@@ -537,7 +540,7 @@ img {
   margin: 0 1px -3px 1px;
 }
 
-/*TABLET LAYOUT*/
+/* TABLET LAYOUT */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   #section-1-grid {
     display: grid;
@@ -576,9 +579,8 @@ img {
     line-height: 18px;
     font-weight: 400;
     justify-self: start;
-    color:#ec521e;
+    color: #ec521e;
     flex-wrap: wrap;
-
   }
 
   .section-2-grid-title {
@@ -625,9 +627,130 @@ img {
 
   #section-4-grid img {
     width: 200px;
-  } 
+  }
 }
 
+/* MOBILE LAYOUT */
 @media screen and (max-width: 767px) {
-  
+  #grid-headline {
+    display: grid;
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3";
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-auto-rows: minmax(250px, auto);
+    gap: 5px;
+  }
+
+  #section-1-grid {
+    display: grid;
+    grid-template-areas:
+      "section-1-grid-title"
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6"
+      "box7"
+      "box8";
+    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-auto-rows: minmax(150px, auto);
+    padding: 0 100px 80px 100px;
+    gap: 25px;
+  }
+
+  #section-2-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(50px, auto);
+    padding: 0 100px 80px 100px;
+    justify-content: center;
+    column-gap: 10px;
+    grid-template-areas:
+      "section-2-grid-title"
+      "section-2-grid-menu"
+      "section-2-grid1"
+      "section-2-grid2"
+      "section-2-grid3"
+      "section-2-grid4";
+  }
+
+  .section-2-grid-menu {
+    grid-area: section-2-grid-menu;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    justify-self: start;
+    color: #ec521e;
+    flex-wrap: wrap;
+  }
+
+  .section-2-grid-title {
+    grid-area: section-2-grid-title;
+    font-size: 30px;
+    justify-self: flex-start;
+    padding-bottom: 25px;
+    font-weight: 800;
+    color: #ec521e;
+    letter-spacing: -0.1rem;
+  }
+
+  #section-2-grid img {
+    width: 100%;
+    height: 250px;
+  }
+
+  #section-3-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(200px, auto);
+    padding: 0 20px 80px 20px;
+    justify-content: center;
+    gap: 10px;
+    grid-template-areas:
+      "section-3-grid1"
+      "section-3-grid2"
+      "section-3-grid3"
+      "section-3-grid4"
+      "section-3-grid5"
+      "section-3-grid6"
+      "section-3-grid7"
+      "section-3-grid8";
+  }
+
+  #section-3-grid img {
+    width: 100%;
+    height: 650px;
+  }
+
+  #section-4-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(50px, auto);
+    padding: 0 100px 80px 100px;
+    justify-content: center;
+    column-gap: 10px;
+    grid-template-areas:
+      "section-4-grid-title"
+      "section-4-grid-deals-link"
+      "section-4-grid1"
+      "section-4-grid2"
+      "section-4-grid3"
+      "section-4-grid4"
+      "section-4-grid5"
+      "section-4-grid6"
+      "section-4-grid7"
+      "section-4-grid8";
+  }
+
+  #section-4-grid img {
+    width: 100px;
+  }
 }
