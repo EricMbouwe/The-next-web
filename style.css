@@ -409,6 +409,11 @@ nav li {
     "section-4-grid5 section-4-grid6 section-4-grid7 section-4-grid8";
 }
 
+#section-4-grid img,
+h1 {
+  margin-bottom: 10px;
+}
+
 .section-4-grid-title {
   grid-area: section-4-grid-title;
   font-size: 30px;
