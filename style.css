@@ -68,8 +68,7 @@ nav li {
   width: 450px;
   height: 128px;
   display: inline-block;
-  background-image: transparent
-    url(https://wpranks.com/wp-content/uploads/2016/01/tnw-website-review.jpg);
+  background-image: transparent url(https://wpranks.com/wp-content/uploads/2016/01/tnw-website-review.jpg);
   background-repeat: no-repeat;
 }
 
@@ -248,7 +247,6 @@ nav li {
   grid-area: section-2-grid-title;
   font-size: 30px;
   align-self: flex-end;
-  /*padding-bottom: 25px;*/
   font-weight: 800;
   color: #ec521e;
   letter-spacing: -0.1rem;
@@ -262,7 +260,6 @@ nav li {
   grid-area: section-2-grid-menu;
   display: flex;
   align-self: flex-end;
-  /*padding-bottom: 25px;*/
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -416,7 +413,6 @@ nav li {
   grid-area: section-4-grid-title;
   font-size: 30px;
   align-self: flex-end;
-  /*padding-bottom: 25px;*/
   font-weight: 800;
   color: #ec521e;
   letter-spacing: -0.1rem;
@@ -425,7 +421,6 @@ nav li {
 .section-4-grid-deals-link {
   grid-area: section-4-grid-deals-link;
   align-self: flex-end;
-  /*padding-bottom: 25px;*/
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
