@@ -290,6 +290,7 @@ nav li {
   padding: 12px;
   text-align: center;
   width: 40px;
+  color: white;
 }
 
 .footer-links-menu a {
@@ -495,15 +496,6 @@ img {
   margin: 0 10px;
 }
 
-.icon {
-  background:
-    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783)
-    no-repeat;
-  display: block;
-  height: 16px;
-  width: 16px;
-}
-
 .footer-links-menu {
   font-size: 13px;
   font-weight: 500;
@@ -527,6 +519,10 @@ img {
   line-height: 20px;
   font-weight: 400;
   color: #aaa;
+}
+
+#footer-legal img {
+  margin-bottom: -13px;
 }
 
 .footer-legal-wrapper {
