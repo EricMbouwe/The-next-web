@@ -384,7 +384,8 @@ nav li {
 }
 
 .footer-links-social-icons a:hover {
-  color: #131313;
+  background: #131313;
+  border: 1px solid #333;
 }
 
 #section-3-grid a {
