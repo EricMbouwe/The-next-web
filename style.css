@@ -542,7 +542,7 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     grid-auto-rows: minmax(150px, auto);
-    padding: 0 100px 80px 100px;
+    padding: 0 20px 50px 20px;
     gap: 25px;
   }
 
@@ -555,9 +555,9 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(50px, auto);
-    padding: 0 100px 80px 100px;
+    padding: 0 20px 50px 20px;
     justify-content: center;
-    column-gap: 10px;
+    column-gap: 20px;
     grid-template-areas:
       "section-2-grid-title section-2-grid-title ."
       "section-2-grid-menu . ."
@@ -589,16 +589,16 @@ img {
   }
 
   #section-2-grid img {
-    width: 200px;
+    width: 100%;
   }
 
   #section-3-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(200px, auto);
-    padding: 0 100px 80px 100px;
+    padding: 0 20px 50px 20px;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     grid-template-areas:
       "section-3-grid1 section-3-grid2"
       "section-3-grid3 section-3-grid4"
@@ -606,13 +606,17 @@ img {
       "section-3-grid7 section-3-grid8";
   }
 
+  #section-3-grid img {
+    width: 100%;
+  }
+
   #section-4-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(50px, auto);
-    padding: 0 100px 80px 100px;
+    padding: 0 20px 50px 20px;
     justify-content: center;
-    column-gap: 10px;
+    column-gap: 20px;
     grid-template-areas:
       "section-4-grid-title section-4-grid-title section-4-grid-deals-link"
       "section-4-grid1 section-4-grid2 section-4-grid3"
@@ -621,7 +625,7 @@ img {
   }
 
   #section-4-grid img {
-    width: 200px;
+    width: 100%;
   }
 }
 
@@ -672,9 +676,8 @@ img {
       "box8";
     grid-template-columns: 1fr;
     justify-content: center;
-    grid-auto-rows: minmax(150px, auto);
-    padding: 0 50px 80px 50px;
-    gap: 25px;
+    grid-auto-rows: minmax(80px, auto);
+    padding: 0 20px 50px 20px;
   }
 
   #section-1-grid1 {
@@ -718,18 +721,16 @@ img {
   }
 
   .section-1-grid-img {
-    width: 150px;
+    width: 80px;
     height: 100px;
-    margin-bottom: 10px;
     margin-right: 10px;
-    padding: 0;
   }
 
   #section-2-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(50px, auto);
-    padding: 0 100px 80px 100px;
+    padding: 0 20px 50px 20px;
     justify-content: center;
     column-gap: 10px;
     grid-template-areas:
@@ -766,14 +767,14 @@ img {
 
   #section-2-grid img {
     width: 100%;
-    height: 250px;
+    height: 300px;
   }
 
   #section-3-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(200px, auto);
-    padding: 0 20px 80px 20px;
+    padding: 0 20px 50px 20px;
     justify-content: center;
     gap: 10px;
     grid-template-areas:
@@ -796,7 +797,7 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(50px, auto);
-    padding: 0 50px 80px 50px;
+    padding: 0 20px 50px 20px;
     justify-content: center;
     column-gap: 10px;
     grid-template-areas:
@@ -813,7 +814,8 @@ img {
   }
 
   #section-4-grid img {
-    width: 150px;
+    width: 80px;
+    height: 90px;
     padding-right: 10px;
   }
 
