@@ -4,6 +4,7 @@
 
 body {
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 nav ul {
@@ -627,11 +628,6 @@ h1 {
     z-index: 1;
     top: 0;
     background-color: #fff;
-    width: 100%;
-  }
-
-  footer,
-  main {
     width: 100%;
   }
 
